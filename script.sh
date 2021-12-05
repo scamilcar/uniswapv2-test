@@ -1,3 +1,7 @@
 #!/bin/zsh
-export DAPP_TEST_ADDRESS=0x66c57bf505a85a74609d2c83e94aabb26d691e1f
+
+#export DAI=0x6B175474E89094C44Da98b954EedeAC495271d0F
+#echo $DAI
+#seth call $DAI "balanceOf(address)" $DAPP_TEST_ADDRESS
+
 dapp test --verbosity 2
